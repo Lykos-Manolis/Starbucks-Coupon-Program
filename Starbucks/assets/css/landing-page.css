@@ -1,0 +1,74 @@
+.card-img-top, .card-img{
+    /* background: #00623D; */
+    border-radius: 0.3rem;
+}
+
+.card-img-input{
+    width: 170px;
+    align-self: center;
+}
+
+.starting-card{
+    height: 440px;
+}
+
+body{
+    /* background: #1F3A33; */
+    font-family: 'Kanit', sans-serif;
+}
+
+.right-arrow{
+    color: #306c56;
+    width: 50px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+}
+
+h5,h4{
+    color: #306c56;
+    font-weight: bold;
+}
+
+h1.hero-header{
+    /* color: #fff; */
+    color: #306c56;
+    font-size: 4rem;
+}
+
+.card {
+    /* box-shadow: 0 2px 20px 0 rgb(0 255 20 / 5%); */
+    box-shadow: 6px 6px 0 #53745366;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn, .btn-primary{
+    background-color: #3a7a63;
+    border-color: #3a7a63;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(26, 77, 39, 0.4);
+}
+
+.btn:hover, .btn-primary:hover, .btn:focus, .btn-primary:focus{
+    background-color: #306c56;
+    border-color: #306c56;
+}
+
+input[type=number]:focus, input[type=text]:focus{
+    border-color: #306c56;
+}
+
+.alert{
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    box-shadow: 2px 2px 0 #ffc5bb;
+}
